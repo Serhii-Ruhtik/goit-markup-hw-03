@@ -3,7 +3,7 @@
   --secondary-text-color: #757575;
   --acsent-text-color: #2196f3;
   --color-white: #ffffff;
-  --color-hero-footer:  #2f303a;
+  --color-hero-footer: #2f303a;
   --color-button-hero: #188ce8;
 }
 
@@ -16,6 +16,8 @@ body {
 }
 .list {
   list-style: none;
+
+  margin: 0;
 }
 .list.comand {
   width: 270px;
@@ -29,23 +31,23 @@ body {
   text-decoration: none;
   color: var(--primary-text-color);
   font-style: normal;
-  
+
   line-height: 1.14;
 }
 .text-note:hover,
 .text-note:focus {
   color: var(--acsent-text-color);
 }
-.text-note{
-   font-weight: 500;
+.text-note {
+  font-weight: 500;
 }
 .text-note.fonts {
   font-family: Raleway;
- 
+
   font-size: 26px;
   line-height: 1.1;
 }
-.text-note.fonts:hover{
+.text-note.fonts:hover {
   color: var(--primary-text-color);
 }
 .current {
@@ -60,6 +62,8 @@ body {
 .color-logo {
   color: var(--acsent-text-color);
 }
+.content-list {
+}
 
 /* section-hero */
 
@@ -67,24 +71,42 @@ body {
   background-color: var(--color-hero-footer);
   transform: uppercase;
   text-transform: uppercase;
+
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  padding: 200px 0px 280px 0px;
 }
 .hero-h {
   color: var(--color-white);
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
-
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0;
+  width: 696px;
+  height: 120px;
+  right: 452px;
+  bottom: 1949px;
+
+ margin-left: auto;
+ margin-right: auto;
+
 }
 .button {
   background-color: var(--acsent-text-color);
   font-family: inherit;
+  margin-top: 30px;
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
+  margin-left: 485px;
+  margin-right: 485px;
+  border-radius: 4px;
+  border: solid transparent;
 }
-.button:hover{
+.button:hover {
   background-color: var(--color-button-hero);
 }
 .button-text {
@@ -108,6 +130,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 0;
 }
 .headline {
   font-size: 14px;
@@ -128,6 +151,7 @@ body {
   font-size: 16px;
   line-height: 1.19;
   color: var(--secondary-text-color);
+  margin-bottom: 0;
 }
 
 .footer {
@@ -139,7 +163,7 @@ body {
 .tagline {
   font-style: normal;
   font-weight: 400;
-  
+
   line-height: 1.71;
 
   color: var(--color-white);
@@ -176,4 +200,11 @@ body {
   line-height: 1.88;
 
   color: var(--secondary-text-color);
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding: 0 15px 0 15px;
+
 }
