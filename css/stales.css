@@ -203,10 +203,14 @@ body {
 .comand {
   background-color: #f5f4fa;
 }
+.comand .item-main{
+  background-color: var(--color-white)
+}
 .subject {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 .subtitle {
   font-weight: 400;
@@ -214,6 +218,7 @@ body {
   line-height: 1.19;
   color: var(--secondary-text-color);
   margin-bottom: 0;
+  text-align: center;
 }
 
 .footer {
@@ -278,6 +283,9 @@ body {
   height: 80px;
   left: 0px;
   top: 0px;
+}
+.item-main{
+  padding: 1px;
 }
 .list .item-main + .item-main {
   margin-left: 30px;
