@@ -15,9 +15,42 @@ body {
   font-size: 14px;
 }
 .list {
+  padding: 0;
   list-style: none;
+  display: flex;
+  align-items: center;
 
   margin: 0;
+}
+.footer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-padding {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.item-mail {
+  padding-top: 9px;
+}
+.item-tel {
+  padding-top: 9px;
+  padding-bottom: 60px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-work {
+  padding-top: 0;
+}
+.item {
+  margin-right: 50px;
+}
+.item:last-child {
+  margin-right: 0;
 }
 .list.comand {
   width: 270px;
@@ -26,6 +59,10 @@ body {
   top: 1635px;
 
   background: var(--color-white);
+}
+
+.item-contact:not(:last-child) {
+  margin-right: 50px;
 }
 .text-note {
   text-decoration: none;
@@ -41,6 +78,7 @@ body {
 .text-note {
   font-weight: 500;
 }
+
 .text-note.fonts {
   font-family: Raleway;
 
@@ -50,6 +88,7 @@ body {
 .text-note.fonts:hover {
   color: var(--primary-text-color);
 }
+
 .current {
   color: var(--acsent-text-color);
 }
@@ -63,6 +102,7 @@ body {
   color: var(--acsent-text-color);
 }
 .content-list {
+  margin-left: auto;
 }
 
 /* section-hero */
@@ -91,9 +131,8 @@ body {
   right: 452px;
   bottom: 1949px;
 
- margin-left: auto;
- margin-right: auto;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 .button {
   background-color: var(--acsent-text-color);
@@ -118,15 +157,18 @@ body {
 }
 .section-two {
   position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 .caption {
+  margin-bottom: 50px;
+
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.15;
@@ -134,6 +176,7 @@ body {
 /* Section Features */
 .features .features-text {
   color: var(--secondary-text-color);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -146,7 +189,7 @@ body {
 }
 /* Section Comand */
 .comand {
-  background-color: var(--color-white);
+  background-color: #f5f4fa;
 }
 .subject {
   font-weight: 500;
@@ -163,7 +206,9 @@ body {
 
 .footer {
   background-color: var(--color-hero-footer);
+  flex-direction: column;
 }
+
 .slogan {
   color: var(--color-white);
 }
@@ -213,5 +258,23 @@ body {
   margin-right: auto;
   width: 1200px;
   padding: 0 15px 0 15px;
-
+  outline: solid tomato;
+}
+.header-contact {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+.list .item-main + .item-main {
+  margin-left: 30px;
+}
+.container-portfolio {
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding: 0 15px 0 15px;
+  outline: solid tomato;
 }
