@@ -309,16 +309,11 @@ flex-wrap: wrap;
 list-style: none;
 }
 
-/* .flex-list :nth-child(3n){ */
-  margin-right: 0;
-}
+
 
 .flex-element{
   margin-right: 30px;
   width: 370px;
   text-align: center;
   background-color: tomato;
-}
-/* .list .flex-element + .flex-element{ */
-  margin-left: 30px;
 }
